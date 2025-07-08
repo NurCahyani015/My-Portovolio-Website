@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio Nur Cahyani</title>
+   
+   <link href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <!--Bootsrap Icon-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" >
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+
+  <!-- =================Navbar=============== -->
+   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar"
+      style="background-color: #1508a3; box-shadow: 0 2px 10px rgba(20, 106, 219, 0.4);">
+      <div class="container">
+         <a class="logo "  href="#">Nur Cahyani</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"id=navbarNav>
+            <ul class="navbar-nav ms-auto">
+               <li class="nav-item"><a  href="#home">Home</a></li>
+               <li class="nav-item"><a href="#about">About Me</a></li>
+               <li class="nav-item"><a  href="#skills">Skills</a></li>
+               <li class="nav-item"><a href="#project">Projects</a></li>
+               <li class="nav-item"><a  href="#contact">Contact Me</a></li>
+               <a href="resume.html" class="cv">CV</a>
+            </ul>
+      </div>
+   </nav>
+
+   <!-- Home -->
+   <main>
+      <!-- Hero Section -->
+      <section id="home" class="home" 
+      style="background: linear-gradient(rgb(4, 9, 10, 0.9), rgba(4, 38, 187, 0.7)), url('/Image/bacv.png') center/cover no-repeat;">
+         <div class="row  container justify-content-center">
+            <div class="col-md-6 mb-2">
+               <div class="text-home  ">
+                  <p class="text-lg mb-1 ">Hi, I'M</p>
+                  <h1 class="hero_text font-bold ">Nur Cahyani</h1>
+                  <h3 >Frontend Developer</h3>
+                  <span class="text-lg">I create beautiful, functional websites and applications with clean code and modern design principles.</span>
+               </div>
+                  <div class="hire-me">
+                     <button href="#contact" class="btn btn-primary hire-me fade-in ">Hire Me</button>
+                  </div>
+            </div>
+            <div class="Image_hero col-md-6 mb-4">
+               <img src="/Image/foto5.png" width="400" alt="Nur Cahyani" class="rounded-circle fade-in"> <!--buat bulat gambar-->
+            </div>
+         </div>
+      </section>
+
+
+      <!-- About Me  -->
+      <section id="about" class=" py-10 bg-gray-100">
+         <div class="about-me">
+               <h2 class="section-title mb-8 fade-in">About Me</h2>
+            <div class="container">
+               <p class="max-w-xl mb-9 fade-in">Mahasiswa aktif Teknik Informatika yang memiliki kemampuan dalam pembuatan web developer.     </p>
+               
+               <div class="contactme  text-center" style="display: flex; justify-content: center; gap: 20px; align-items: center; font-size: 16px; ">
+                  <a class="contact-item " href="https://www.instagram.com/nurchyni05c_?igsh=NzB0ZWZoMGt5Nm1s " target="_blank" 
+                     style="display: flex; align-items: center; gap: 8px; color: #000; text-decoration: none;">
+                     <img src="Image/instagram.svg" alt="github" style="width: 18px; height: 18px;"> nurchyani05c_
+                  </a>
+                  <a class="contact-item text-center" href="mailto:cnur58268@gmail.com" 
+                     style="display: flex; align-items: center; gap: 8px; color: #000; text-decoration: none;">
+                     <i class="fas fa-envelope" style="font-size: 18px;"></i> cnur58268@gmail.com
+                  </a>
+                  <a class="contact-item text-center" href="https://github.com/NurCahyani015" target="_blank" 
+                     style="display: flex; align-items: center; gap: 8px; color: #000; text-decoration: none;">
+                     <img src="Image/github.svg" alt="Instagram" style="width: 18px; height: 18px;"> NurCahyani015
+                  </a>
+                  
+                  
+               </div>    
+         </div>
+      </section>
+
+         
+      <!-- =============Skills============ -->
+      <section id="skills" class="py-20" >
+         <div class="container mx-auto px-6" >
+            <h2 class="section-title fade-in">Skills</h2>
+            <nav>
+               <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-tech-stack-tab" data-bs-toggle="tab" data-bs-target="#tech-stack" type="button" role="tab" aria-controls="nav-tech-stack" aria-selected="true">Technical Stack</button>
+                  <button class="nav-link" id="nav-tools-tab" data-bs-toggle="tab" data-bs-target="#tools" type="button" role="tab" aria-controls="nav-tools" aria-selected="false">Tools</button>
+               </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+
+               <div class="tab-pane fade show active" id="tech-stack" role="tabpanel" aria-labelledby="tech-stack" tabindex="0">
+                  <div class="tech-stack">
+                     <!-- HTML -->
+                     <div class="flex">
+                        <div class="skill-icon">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="w-full h-full object-contain">
+                        </div>
+                        <span>HTML</span>
+                     </div>
+
+                     <!-- CSS -->
+                     <div class="flex ">
+                        <div class="skill-icon">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="w-full h-full object-contain">
+                        </div>
+                        <span>CSS</span>
+                     </div>
+               
+                     <!-- JavaScript -->
+                     <div class="flex">
+                        <div class="skill-icon ">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-full h-full object-contain">
+                        </div>
+                        <span>JavaScript (basic)</span>
+                     </div>
+                     
+                     <!-- PHP -->
+                     <div class="flex">
+                        <div class="skill-icon ">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" class="w-full h-full object-contain">
+                        </div>
+                        <span>PHP</span>
+                     </div>
+
+                     <!-- Boostrap -->
+                     <div class="flex">
+                        <div class="skill-icon ">
+                           <img src="/Image/bootstrap.png" alt="PHP" class="w-full h-full object-contain">
+                        </div>
+                        <span>Boostrap</span>
+                     </div>
+
+                  </div>
+               </div>
+
+               <div class="tab-pane fade" id="tools" role="tabpanel" aria-labelledby="tools" tabindex="0">
+                  <div class="tools">
+                     <!-- VS Code -->
+                     <div class="flex">
+                        <div class="skill-icon ">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Visual Studio Code" class="w-full h-full object-contain">
+                        </div>
+                        <span>VS Code</span>
+                     </div>
+
+                     <!-- Git -->
+                     <div class="flex ">
+                        <div class="skill-icon">
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="w-full h-full object-contain">
+                        </div>
+                        <span>Git</span>
+                     </div>
+
+                     <!-- Android Studio -->
+               <div class="flex">
+                  <div class="skill-icon ">
+                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" class="w-full h-full object-contain">
+                  </div>
+                  <span> Android Studio</span>
+               </div>
+               
+               <!-- Canva -->
+               <div class="flex  ">
+                  <div class="skill-icon">
+                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva" class="w-full h-full object-contain">
+                  </div>
+                  <span>Canva</span>
+               </div>
+
+               <!-- GitHub -->
+               <div class="flex  ">
+                  <div class="skill-icon">
+                     <img src="/Image/github.svg" alt="Canva" class="w-full h-full object-contain">
+                  </div>
+                  <span>GitHub</span>
+               </div>
+               
+               <!-- Figma -->
+               <div class="flex">
+                  <div class="skill-icon">
+                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" class="w-full h-full object-contain">
+                  </div>
+                  <span>Figma</span>
+               </div>
+               
+               <!-- Capcut -->
+               <div class="flex ">
+                  <div class="skill-icon  ">
+                        <img src="/Image/capcut-icon.png" alt="Capcup" class="w-full h-full object-contain">
+                  </div>
+                  <span>CapCut</span>
+               </div>
+            
+               
+                  </div>
+               </div>
+            </div> 
+         </div>
+      </section>
+
+
+<!-- Projects Section -->
+   <section id="projek" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+         <div class="text-center mb-16">
+            <h2 class="section-title text-3xl font-bold text-center fade-in">Get In Touch</h2>
+            <div class="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6"></div>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">A selection of my recent work</p>
+         </div>
+            
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+           
+            <!-- Project 1 -->
+            <div class="project-card">
+               <div class="project-card-inner h-96 relative">
+                  <div class="project-card-front absolute w-full h-full bg-white rounded-xl shadow-md overflow-hidden">
+                     <div class="h-48 bg-gray-200 overflow-hidden">
+                        <img src="/Image/foto3.png" alt="Mobile interface of a fitness tracking application with workout statistics" class="w-full h-full object-cover" />
+                     </div>
+                     <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Fitness Tracker</h3>
+                        <p class="text-gray-600 mb-4">Mobile-first application for tracking workouts and health metrics.</p>
+                        <div class="flex flex-wrap gap-2">
+                           <span class="px-3 py-1 bg-gray-100 text-sm rounded-full">React Native</span>
+                           <span class="px-3 py-1 bg-gray-100 text-sm rounded-full">Firebase</span>
+                           <span class="px-3 py-1 bg-gray-100 text-sm rounded-full">Redux</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="project-card-back absolute w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl p-6 flex flex-col justify-center items-center text-white">
+                     <h3 class="text-xl font-bold mb-4">Fitness Tracker</h3>
+                     <p class="mb-6 text-center">Mobile-first application with workout logging, progress tracking, and health statistics visualization.</p>
+                     <a href="#" class="px-6 py-2 bg-white text-blue-600 rounded-full font-medium hover:bg-gray-100 transition-all">View Project</a>
+                  </div>
+               </div>
+            </div>
+
+      </section>
+
+
+      <!-- Contact -->
+      <section id="contact">
+         <div class="container">
+            <div class="row box-shadow text">
+               <div class="col">
+                  <h2 class="section-title text-3xl font-bold text-center fade-in">Get In Touch</h2>
+               </div>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-md-8 "> <!--ukuran panjangkotaknya-->
+                  <!--Pesan -->
+                  <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                     <strong>Terimakasih Pesan anda Sudah saya Terima!</strong>
+                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+
+                  <form method="post" name="contact-form" class="contact" action="https://script.google.com/macros/s/AKfycbwTh_UXKq6cgTumEh7dRQbSyWnmI1riML_BTZRXV0z0_gY1Kmt0z-s9JGU-q_1D3VXMtg/exec">
+                     <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input name="name" type="text" class="form-control" id="name" aria-describedby="name"> 
+                     </div>
+
+                     <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input name="email" type="email" class="form-control" id="email" aria-describedby="email">
+                     </div>
+
+                     <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input name="subject" type="subject" class="form-control" id="subject" aria-describedby="subject">
+                     </div>
+
+                     <div class="mb-3">
+                        <label for="pesan" class="form-label">Message</label>
+                        <textarea name="pesan" class="form-control" id="pesan" rows="3"></textarea>
+                     </div>
+
+                     <button type="submit" value="Submit" class="btn btn-primary btn-kirim" id="submit">Submit</button>
+                     <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                        <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                        <span role="status">Loading...</span>
+                     </button>
+
+                  </form>
+               </div>
+            </div>
+         </div>
+       </section>  
+                  
+                  <div class="mt-12 grid md:grid-cols-3 gap-6">
+                        <div class="hubungi items-center text-center">
+                           <link href="https://maps.app.goo.gl/w6qtf8PFj429ytR37" target="_blank" rel="noopener noreferrer">
+                              <div class="bg-blue-100 text-blue-600 p-4 rounded-full mb-3 hover:bg-blue-200 transition">
+                                 <i class="fas fa-map-marker-alt"></i>
+                              </div>
+                           </a>
+                           <h4 class="font-medium ">Location</h4>
+                           <p class="text-gray-600">Makassar, Sulawesi Selatan</p>
+                        </div>
+                        <div class="hubungi flex-col text-center">
+                           <div class="bg-blue-100 text-blue-600 p-4 mb-1">
+                              <i class="fas fa-envelope text-xl"></i>
+                           </div>
+                           <h4 class="font-medium ">Email</h4>
+                           <p class="text-gray-600">cnur58268@gmail.com</p>
+                        </div>
+                        <div class="hubungi flex-col  text-center ">
+                           <div class="bg-blue-100 text-blue-600 p-4 rounded-full mb-3">
+                              <i class="fas fa-phone-alt text-xl"></i>
+                           </div>
+                           <h4 class="font-medium">Phone</h4>
+                           <p class="text-gray-600">+6285341653190</p>
+                        </div>
+                  </div>
+               </div>
+            </div>
+      </section>
+   </main>
+
+   <!-- ============Footer ================-->
+   <footer class="bg-gradient-blue text-white ">
+      <div class="container mx-auto px-4 text-center">
+         <p> Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/nurchyni05c_?igsh=NzB0ZWZoMGt5Nm1s " class="text-white fw-bold">Nur Cahyani</a> </p>
+      </div>
+   </footer>
+
+   <!--============= Project=============-->
+   <script>
+     
+   </script>
+
+
+
+   <!-- Bootstrap 5 JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <!--Hubungkan Cobtact ke gogle sheet-->
+   <script src="script.js">
+
+   </script>
+</body>
+</html>
